@@ -117,11 +117,7 @@
 
 .hero__heading span {
     background: #ee0979;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient( to right, #ff6a00, #ee0979);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient( to right, #ff6a00, #ee0979);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -132,11 +128,7 @@
 .hero__description {
     font-size: 60px;
     background: #da22ff;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient( to right, #9114ff, #da22ff);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient( to right, #8f0eff, #da22ff);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -190,11 +182,7 @@
 .main__content h2 {
     font-size: 4rem;
     background: #ff8177;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient( to right, #9114ff, #da22ff);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient( to right, #8f0eff, #da22ff);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -365,6 +353,11 @@
     margin-top: 16px;
 }
 
+.services__btn:hover {
+    transform: scale(1.275);
+    transition: 0.2s ease;
+}
+
 .services__card button {
     color: #fff;
     padding: 14px 24px;
@@ -383,6 +376,95 @@
     transform: scale(1.075);
     transition: 0.3s ease-in;
     cursor: pointer;
+}
+
+
+/* trainers */
+
+.flex-box {
+    display: flex;
+    background-color: #131313;
+    padding: 5rem 0;
+    justify-content: space-evenly;
+}
+
+.meettrainers {
+    background-color: #131313;
+    font-family: sans-serif;
+}
+
+.meet {
+    text-align: center;
+    font-size: 50px;
+    background: #da22ff;
+    background: linear-gradient( to right, #8f0eff, #da22ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.trainer1 {
+    width: 450px;
+    height: 500px;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    box-shadow: 5px 2px 10px #888888;
+}
+
+.trainer1:hover {
+    transform: scale(1.175);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    color: #fff;
+}
+
+.name {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.name:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+}
+
+.trainer {
+    width: 100%;
+}
+
+.personaltrainer {
+    text-align: center;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+.emmie {
+    background: #da22ff;
+    background: linear-gradient( to right, #8f0eff, #da22ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.emmie1 {
+    width: 450px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 5px 2px 10px #888888;
+}
+
+.emmie1:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.trainer123 {
+    font-size: 30px;
 }
 
 
