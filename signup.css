@@ -6,12 +6,7 @@ body {
 .logo-flex {
     display: flex;
     justify-content: space-around;
-    margin-top: 70px;
-}
-
-.logo {
-    width: 350px;
-    height: 330px;
+    margin-bottom: 40px;
 }
 
 #home-logo {
@@ -51,6 +46,7 @@ input {
     outline: none;
     font-size: 20px;
     background: transparent;
+    box-shadow: 0.5px 1px 1px #121212;
 }
 
 button {
@@ -65,7 +61,8 @@ button {
 button:hover {
     cursor: pointer;
     background-color: lightgreen;
-    transition: 0.5s linear;
+    transition: 0.5s ease;
+    transform: scale(1.130);
 }
 
 form h1 {
