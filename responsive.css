@@ -1,3 +1,6 @@
+/* MAIN PAGE RESPONSIVE */
+
+
 /* 380 trainers */
 
 @media screen and (max-width: 380px) {
@@ -232,5 +235,26 @@
     }
     .social__media--wrap {
         flex-direction: column;
+    }
+}
+
+
+/* CONTACT RESPONSIVE */
+
+@media screen and (max-width: 1145px) {
+    .contact-info {
+        display: none;
+    }
+    .contact-flex {
+        align-content: center;
+    }
+}
+
+
+/* SING UP RESPONSIVE */
+
+@media screen and (max-width: 5480px) {
+    #home-logo {
+        font-size: 45px;
     }
 }

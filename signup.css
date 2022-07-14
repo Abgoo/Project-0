@@ -1,6 +1,7 @@
 body {
+    min-height: 100vh;
     background: url(img/singup.jpg) no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .logo-flex {
@@ -46,7 +47,7 @@ input {
     outline: none;
     font-size: 20px;
     background: transparent;
-    box-shadow: 0.5px 1px 1px #121212;
+    box-shadow: 0.4px 0.4px 0.4px #121212;
 }
 
 button {
