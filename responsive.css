@@ -1,6 +1,26 @@
-/* 980px */
+/* 380 trainers */
+
+@media screen and (max-width: 380px) {
+    .trainer1 {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+
+/* 960px */
 
 @media screen and (max-width: 960px) {
+    .trainer1 {
+        width: 450px;
+        height: 400px;
+    }
+    .emmie1 {
+        width: 450px;
+        height: 400px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -137,7 +157,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
     .main__img--card {
         width: 250px;
         height: 250px;
@@ -159,6 +179,32 @@
     .main__btn {
         padding: 12px 36px;
         margin: 2.5rem 0;
+    }
+    .services {
+        margin: 0 auto;
+    }
+    .services__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__link--items {
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
+    .flex-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .trainer1 {
+        width: 380px;
+        height: 400px;
+    }
+    .emmie1 {
+        width: 380px;
+        height: 400px;
+        margin: 50px 0 50px 0;
     }
 }
 
@@ -186,13 +232,5 @@
     }
     .social__media--wrap {
         flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .footer__link--items {
-        margin: 0;
-        padding: 10px;
-        width: 100%;
     }
 }

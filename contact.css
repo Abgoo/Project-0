@@ -8,6 +8,12 @@
         background-size: cover;
     }
     
+    .pin {
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+    }
+    
     .contact-flex {
         display: flex;
         justify-content: center;
@@ -48,7 +54,7 @@
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
-        -mo-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
         font-size: 45px;
         text-transform: uppercase;
         margin-bottom: 30px;
