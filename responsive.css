@@ -253,7 +253,7 @@
 
 /* SING UP RESPONSIVE */
 
-@media screen and (max-width: 5480px) {
+@media screen and (max-width: 580px) {
     #home-logo {
         font-size: 45px;
     }
