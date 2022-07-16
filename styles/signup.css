@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Kdam+Thmor+Pro&family=Lobster&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Kdam+Thmor+Pro&family=Lobster&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Kdam+Thmor+Pro&family=Lobster&family=Quicksand:wght@300&display=swap');
 body {
     min-height: 100vh;
     background: url(../img/singup.jpg) no-repeat;
@@ -8,6 +11,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
+    font-family: poppins semibold;
 }
 
 #home-logo {
@@ -57,6 +61,7 @@ button {
     background-color: white;
     border: none;
     color: black;
+    font-family: lobster;
 }
 
 button:hover {
@@ -69,10 +74,12 @@ button:hover {
 form h1 {
     margin-bottom: 30px;
     font-size: 55px;
+    font-family: poppins sans-serif;
 }
 
 ::placeholder {
     color: #fff;
+    font-family: poppins;
 }
 
 
@@ -114,11 +121,13 @@ form h1 {
     text-align: left;
     width: 160px;
     box-sizing: border-box;
+    font-family: poppins;
 }
 
 .footer__link--items h2 {
     margin-bottom: 16px;
     color: #fff;
+    font-family: poppins;
 }
 
 .footer__link--items a {
