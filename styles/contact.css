@@ -4,7 +4,7 @@
     
     body {
         min-height: 100vh;
-        background: url(img/picture1.jpg) no-repeat;
+        background: url(../img/picture1.jpg) no-repeat;
         background-size: cover;
     }
     
