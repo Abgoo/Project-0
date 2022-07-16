@@ -3,7 +3,7 @@
 
 /* 1300px */
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
     .services__wrapper {
         grid-template-columns: 1fr 1fr;
     }
@@ -318,6 +318,18 @@
     .send-btn {
         max-width: 350px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .services__card {
+        max-width: 250px;
+    }
+    .trainer1 {
+        max-width: 250px;
+    }
+    .emmie1 {
+        max-width: 250px;
     }
 }
 
